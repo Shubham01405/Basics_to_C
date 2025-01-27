@@ -15,7 +15,7 @@ int main() {
     exampleFunction();
 
     // Exit program
-    return 0;
+    return 0;  // int return = 0
 }
 
 // Example function definition
