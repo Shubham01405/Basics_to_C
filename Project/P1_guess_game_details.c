@@ -11,7 +11,12 @@
  #include <stdlib.h> → For rand() and srand().
  #include <time.h> → For time() to seed the random number generator.
  srand(time(0)); → Seeds the random number generator to ensure different output each time.
- rand() % 100 + 1; → Generates a random number between 1 and 100.
+
+ rand() → Starts with 0 to maximum
+ (rand() % 100)+ 1; → Generates a random number between 1 to 100.
+ rand() % 100; → Generates a random number between 0 to 100.
+ rand() % 3; → Generates a random number between 0 to 2
+
  printf() → Prints the generated random number. */
 
 
